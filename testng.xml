@@ -1,0 +1,8 @@
+<suite name="Suite">
+  <test name="Test">
+  <parameters name = "browser" value = "chrome" />
+  <packages>
+  <package name = "com.mindtree.autotoursdemo.scripts" />
+  </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
