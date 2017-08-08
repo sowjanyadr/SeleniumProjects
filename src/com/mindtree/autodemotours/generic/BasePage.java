@@ -48,7 +48,7 @@ public class BasePage implements IAUTOCONST{
 		wait.until(ExpectedConditions.visibilityOf(element));
 		}
 		catch(Exception e){
-			log.debug("element is not present");
+			log.info("element is not present");
 		}
 	}
 

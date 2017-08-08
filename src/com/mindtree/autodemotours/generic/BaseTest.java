@@ -32,14 +32,14 @@ public class BaseTest implements IAUTOCONST{
 	public void openApplication(@Optional("chrome") String browser){
 		if(browser.equals("chrome")){
 			driver = new ChromeDriver();
-			log.debug("Opening the chromeDriver");
+			log.info("Opening the chromeDriver");
 		}
 		else {
 			driver = new FirefoxDriver();
-			log.debug("Opening the FireFoxDriver");
+			log.info("Opening the FireFoxDriver");
 		}
 		strURL = Utility.getProperties("URL", CONFIG_PROPERTIES);
-		log.debug("Open the URL");
+		log.info("Open the URL");
 		driver.get(strURL);
 		String strITO = Utility.getProperties("ITO", CONFIG_PROPERTIES);
 		lngITO = Long.parseLong(strITO);

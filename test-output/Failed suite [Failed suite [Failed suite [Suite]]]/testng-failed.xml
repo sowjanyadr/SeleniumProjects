@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]">
+  <test name="Test(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.mindtree.autotoursdemo.scripts.Registerscript">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApplication"/>
+          <include name="register"/>
+          <include name="initFrameWork"/>
+        </methods>
+      </class> <!-- com.mindtree.autotoursdemo.scripts.Registerscript -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->

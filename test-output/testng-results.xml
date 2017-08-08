@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16127" started-at="2017-08-07T09:01:42Z" finished-at="2017-08-07T09:01:58Z">
+  <suite name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]]]]" duration-ms="16232" started-at="2017-08-08T05:15:14Z" finished-at="2017-08-08T05:15:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16127" started-at="2017-08-07T09:01:42Z" finished-at="2017-08-07T09:01:58Z">
-      <class name="com.mindtree.autotoursdemo.scripts.SIGNONScript">
-        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.mindtree.autotoursdemo.scripts.SIGNONScript@6f7fd0e6]" name="initFrameWork" is-config="true" duration-ms="16" started-at="2017-08-07T14:31:42Z" finished-at="2017-08-07T14:31:42Z">
+    <test name="Test(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)" duration-ms="16232" started-at="2017-08-08T05:15:14Z" finished-at="2017-08-08T05:15:30Z">
+      <class name="com.mindtree.autotoursdemo.scripts.Registerscript">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.mindtree.autotoursdemo.scripts.Registerscript@5702b3b1]" name="initFrameWork" is-config="true" duration-ms="10" started-at="2017-08-08T10:45:14Z" finished-at="2017-08-08T10:45:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFrameWork -->
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:com.mindtree.autotoursdemo.scripts.SIGNONScript@6f7fd0e6]" name="openApplication" is-config="true" duration-ms="6379" started-at="2017-08-07T14:31:42Z" finished-at="2017-08-07T14:31:48Z">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:com.mindtree.autotoursdemo.scripts.Registerscript@5702b3b1]" name="openApplication" is-config="true" duration-ms="5288" started-at="2017-08-08T10:45:14Z" finished-at="2017-08-08T10:45:19Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="signOn()[pri:1, instance:com.mindtree.autotoursdemo.scripts.SIGNONScript@6f7fd0e6]" name="signOn" duration-ms="9724" started-at="2017-08-07T14:31:48Z" finished-at="2017-08-07T14:31:58Z">
+        <test-method status="PASS" signature="register()[pri:1, instance:com.mindtree.autotoursdemo.scripts.Registerscript@5702b3b1]" name="register" duration-ms="10924" started-at="2017-08-08T10:45:19Z" finished-at="2017-08-08T10:45:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signOn -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.mindtree.autotoursdemo.scripts.SIGNONScript@6f7fd0e6]" name="closeApp" is-config="true" duration-ms="319" started-at="2017-08-07T14:31:58Z" finished-at="2017-08-07T14:31:58Z">
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.mindtree.autotoursdemo.scripts.Registerscript@5702b3b1]" name="closeApp" is-config="true" duration-ms="254" started-at="2017-08-08T10:45:30Z" finished-at="2017-08-08T10:45:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- com.mindtree.autotoursdemo.scripts.SIGNONScript -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mindtree.autotoursdemo.scripts.Registerscript -->
+    </test> <!-- Test(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]]]] -->
 </testng-results>
